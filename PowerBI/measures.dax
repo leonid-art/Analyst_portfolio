@@ -1,0 +1,85 @@
+// ============================================================
+//  Power BI — меры DAX для дашборда «Стартап-экосистема»
+//  Подключите CSV из папки ../data/ и создайте связи по схеме SQL
+// ============================================================
+
+// --- KPI ---
+
+Total Companies =
+COUNTROWS(company)
+
+Total Funding ($M) =
+DIVIDE(SUM(company[funding_total]), 1000000)
+
+Avg Round Size ($M) =
+DIVIDE(AVERAGE(funding_round[raised_amount]), 1000000)
+
+M&A Deals Count =
+COUNTROWS(acquisition)
+
+Total M&A Volume ($M) =
+DIVIDE(SUM(acquisition[price_amount]), 1000000)
+
+// --- Сегментация фондов ---
+
+Fund Activity =
+VAR companies = fund[invested_companies]
+RETURN
+    SWITCH(
+        TRUE(),
+        companies >= 100, "high_activity",
+        companies >= 20,  "middle_activity",
+        "low_activity"
+    )
+
+Avg Rounds by Activity =
+CALCULATE(
+    AVERAGE(fund[investment_rounds]),
+    ALLEXCEPT(fund, fund[activity])
+)
+
+// --- Временные метрики ---
+
+Funding Year =
+YEAR(funding_round[funded_at])
+
+Rounds This Year =
+CALCULATE(
+    COUNTROWS(funding_round),
+    funding_round[funded_at] >= DATE(YEAR(TODAY()), 1, 1)
+)
+
+YoY Funding Growth % =
+VAR currentYear = SUMX(
+    FILTER(funding_round, YEAR(funding_round[funded_at]) = YEAR(TODAY())),
+    funding_round[raised_amount]
+)
+VAR prevYear = SUMX(
+    FILTER(funding_round, YEAR(funding_round[funded_at]) = YEAR(TODAY()) - 1),
+    funding_round[raised_amount]
+)
+RETURN
+    DIVIDE(currentYear - prevYear, prevYear)
+
+// --- География ---
+
+Top Country Funding =
+MAXX(
+    TOPN(1, VALUES(company[country_code]), CALCULATE(SUM(company[funding_total]))),
+    company[country_code]
+)
+
+// --- M&A ---
+
+Cash Deals Volume ($M) =
+CALCULATE(
+    DIVIDE(SUM(acquisition[price_amount]), 1000000),
+    acquisition[term_code] = "cash"
+)
+
+Acquisition Multiple =
+DIVIDE(
+    SUM(acquisition[price_amount]),
+    SUM(RELATED(company[funding_total])),
+    0
+)

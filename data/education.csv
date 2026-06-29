@@ -1,0 +1,557 @@
+id,person_id,degree_type,instituition,graduated_at
+1,1,bachelor,Harvard University,2001-04-22
+2,2,master,Stanford University,2006-09-12
+3,3,mba,Oxford University,2009-10-14
+4,4,bachelor,Oxford University,2011-02-16
+5,5,bachelor,MIT,2015-11-17
+6,6,mba,Moscow State University,2008-12-13
+7,7,phd,Cambridge University,2004-11-27
+8,8,master,Technion,2001-11-14
+9,9,phd,ETH Zurich,2016-02-14
+10,10,master,UC Berkeley,1998-09-03
+11,11,phd,MIT,2000-01-13
+12,12,master,HSE University,2001-09-21
+13,13,mba,MIT,2004-03-19
+14,14,mba,MIT,2017-11-22
+15,15,bachelor,Technion,2000-12-01
+16,16,mba,HSE University,1997-08-03
+17,17,phd,Stanford University,2012-10-05
+18,18,bachelor,UC Berkeley,1998-04-11
+19,19,phd,MIT,1997-09-14
+20,21,mba,Stanford University,2007-11-17
+21,22,master,ETH Zurich,2011-10-19
+22,24,mba,ETH Zurich,1998-08-07
+23,25,master,Cambridge University,2000-04-27
+24,26,mba,Moscow State University,2000-09-17
+25,27,master,Stanford University,1996-01-08
+26,29,mba,Moscow State University,2012-01-06
+27,30,master,Technion,2010-07-12
+28,31,master,MIT,1996-06-11
+29,32,mba,HSE University,1995-09-14
+30,33,bachelor,MIT,1996-07-04
+31,34,bachelor,UC Berkeley,1996-12-25
+32,35,master,Moscow State University,2004-09-29
+33,36,bachelor,Harvard University,2017-08-08
+34,38,phd,HSE University,2009-05-20
+35,39,master,Moscow State University,2004-11-30
+36,40,phd,Stanford University,2002-11-09
+37,41,mba,Moscow State University,2017-03-26
+38,42,phd,ETH Zurich,2018-07-11
+39,43,mba,ETH Zurich,2001-09-10
+40,44,master,Moscow State University,2016-03-29
+41,45,master,Oxford University,2001-06-23
+42,46,bachelor,Moscow State University,2013-07-06
+43,48,master,ETH Zurich,2005-11-22
+44,49,phd,MIT,2015-03-06
+45,50,bachelor,Moscow State University,2003-07-18
+46,51,mba,HSE University,1996-10-09
+47,53,master,Technion,2004-05-15
+48,55,bachelor,UC Berkeley,2003-07-11
+49,57,mba,UC Berkeley,2004-03-04
+50,58,master,Moscow State University,2009-06-05
+51,59,mba,Technion,2018-12-09
+52,60,phd,Oxford University,2011-02-18
+53,61,mba,Technion,1999-06-04
+54,62,mba,Cambridge University,2004-02-11
+55,63,mba,Stanford University,2004-12-04
+56,64,bachelor,Oxford University,2013-09-24
+57,65,master,Cambridge University,2005-04-26
+58,66,master,Technion,2010-02-21
+59,67,mba,Technion,2015-09-03
+60,68,phd,Harvard University,2001-04-12
+61,69,mba,Harvard University,1997-08-20
+62,70,bachelor,Stanford University,1995-04-15
+63,71,master,MIT,2001-10-10
+64,72,mba,Cambridge University,1997-09-17
+65,73,mba,Technion,1995-09-15
+66,74,mba,Stanford University,1995-10-02
+67,75,phd,Moscow State University,2007-11-11
+68,76,mba,Harvard University,1999-10-20
+69,78,master,UC Berkeley,2018-08-13
+70,79,phd,Oxford University,2012-10-20
+71,80,mba,Technion,2005-11-28
+72,82,bachelor,Stanford University,1999-03-12
+73,83,mba,Moscow State University,2016-05-08
+74,84,bachelor,Harvard University,1998-09-16
+75,85,mba,Cambridge University,1999-04-12
+76,88,mba,Oxford University,1997-02-01
+77,90,phd,Moscow State University,1996-06-23
+78,91,phd,Stanford University,2004-04-17
+79,92,mba,MIT,2008-06-04
+80,93,master,HSE University,2012-06-15
+81,94,phd,ETH Zurich,2001-04-11
+82,95,bachelor,Moscow State University,2010-07-07
+83,96,mba,UC Berkeley,1998-05-30
+84,97,mba,Cambridge University,1996-04-30
+85,98,mba,Technion,2005-03-26
+86,99,mba,ETH Zurich,2003-05-02
+87,100,mba,MIT,2008-04-01
+88,101,bachelor,MIT,2007-01-08
+89,102,master,ETH Zurich,2009-03-16
+90,103,bachelor,Stanford University,2008-10-29
+91,104,phd,MIT,2000-12-10
+92,105,mba,Technion,2017-12-26
+93,106,bachelor,MIT,2010-11-16
+94,107,phd,ETH Zurich,1995-07-22
+95,108,mba,MIT,2005-11-21
+96,109,master,ETH Zurich,2002-08-09
+97,110,phd,Oxford University,2017-02-13
+98,111,master,ETH Zurich,2007-05-19
+99,112,mba,MIT,2011-03-14
+100,113,master,Technion,2003-10-09
+101,114,master,Oxford University,1995-04-21
+102,116,mba,Cambridge University,2014-09-30
+103,117,master,Oxford University,2009-05-20
+104,118,master,Technion,2009-02-03
+105,119,mba,Cambridge University,2008-01-28
+106,120,mba,HSE University,2005-11-15
+107,121,phd,ETH Zurich,2011-05-17
+108,122,master,HSE University,2003-01-26
+109,123,bachelor,Technion,2004-05-27
+110,124,phd,MIT,2013-05-09
+111,125,master,Oxford University,2005-11-09
+112,126,master,ETH Zurich,2011-11-29
+113,127,mba,HSE University,2012-12-23
+114,128,mba,Moscow State University,1996-08-25
+115,129,phd,Moscow State University,1998-10-24
+116,130,master,Cambridge University,2002-06-18
+117,131,bachelor,HSE University,2012-12-04
+118,133,mba,MIT,1995-06-22
+119,134,master,Moscow State University,2018-04-09
+120,135,master,Technion,2011-10-13
+121,136,master,Cambridge University,1996-02-07
+122,137,phd,ETH Zurich,1998-11-07
+123,138,master,Cambridge University,2008-12-28
+124,139,master,Moscow State University,2016-08-30
+125,140,bachelor,Technion,2015-04-18
+126,141,phd,Stanford University,2000-02-29
+127,142,phd,MIT,2002-05-16
+128,144,master,Moscow State University,2002-03-08
+129,145,mba,Technion,2005-05-26
+130,146,master,Harvard University,2014-05-21
+131,147,master,Technion,2014-04-08
+132,148,master,UC Berkeley,2007-06-27
+133,149,bachelor,HSE University,1999-07-26
+134,150,master,Cambridge University,2009-08-15
+135,151,bachelor,Oxford University,2016-12-15
+136,152,phd,HSE University,2012-06-07
+137,153,bachelor,Cambridge University,2010-10-15
+138,154,master,Oxford University,1998-10-20
+139,155,phd,MIT,2005-09-13
+140,156,master,Cambridge University,2001-05-05
+141,157,mba,HSE University,2001-03-08
+142,158,mba,Harvard University,2016-10-30
+143,159,master,Moscow State University,2002-06-26
+144,160,master,Harvard University,2009-02-10
+145,161,bachelor,Cambridge University,1995-06-07
+146,162,master,ETH Zurich,2017-09-03
+147,163,mba,Technion,2013-08-23
+148,164,mba,Technion,2002-07-03
+149,165,bachelor,UC Berkeley,2008-02-07
+150,166,master,Moscow State University,2007-12-13
+151,167,mba,HSE University,2017-03-21
+152,168,bachelor,HSE University,2000-02-15
+153,169,phd,Moscow State University,1996-11-12
+154,170,mba,Moscow State University,2004-10-20
+155,172,master,Oxford University,1996-06-12
+156,173,phd,MIT,2014-09-11
+157,175,master,UC Berkeley,2010-09-23
+158,177,mba,Harvard University,2001-03-31
+159,178,master,Stanford University,2010-09-26
+160,179,master,Cambridge University,2008-02-16
+161,180,phd,Moscow State University,1999-04-10
+162,181,mba,Stanford University,2007-06-10
+163,183,master,UC Berkeley,2001-07-24
+164,184,master,ETH Zurich,2016-12-15
+165,185,phd,ETH Zurich,2011-10-30
+166,186,bachelor,ETH Zurich,2018-02-16
+167,187,phd,Technion,2016-11-22
+168,188,bachelor,MIT,2015-07-26
+169,189,phd,MIT,2018-12-22
+170,190,mba,UC Berkeley,2017-03-11
+171,191,phd,Cambridge University,2000-11-09
+172,192,mba,Cambridge University,1997-03-04
+173,193,mba,Stanford University,2000-07-28
+174,195,mba,Stanford University,2014-03-11
+175,196,master,Oxford University,2002-02-17
+176,199,phd,Oxford University,1998-09-12
+177,200,master,Stanford University,2012-10-11
+178,201,master,ETH Zurich,1999-02-03
+179,202,bachelor,UC Berkeley,2016-05-22
+180,203,master,Moscow State University,2014-12-18
+181,204,phd,MIT,2013-12-11
+182,205,mba,MIT,2005-04-09
+183,206,bachelor,MIT,2009-01-20
+184,207,phd,Harvard University,2012-03-02
+185,208,master,Harvard University,1998-01-25
+186,209,bachelor,HSE University,2002-05-12
+187,210,master,Harvard University,2013-06-20
+188,211,mba,UC Berkeley,1998-11-21
+189,213,bachelor,HSE University,2012-03-23
+190,214,mba,Cambridge University,2001-04-09
+191,215,bachelor,UC Berkeley,2007-10-13
+192,216,bachelor,Oxford University,2004-03-20
+193,217,master,ETH Zurich,2008-04-04
+194,218,master,Technion,2012-04-23
+195,219,mba,HSE University,1998-03-09
+196,220,bachelor,Cambridge University,2009-03-13
+197,221,mba,Cambridge University,2002-10-01
+198,222,bachelor,Stanford University,1998-01-11
+199,223,master,Stanford University,1997-09-17
+200,225,phd,Moscow State University,2013-08-20
+201,226,mba,MIT,2001-11-06
+202,227,phd,MIT,2017-12-08
+203,230,phd,ETH Zurich,1997-12-19
+204,231,mba,UC Berkeley,1997-08-06
+205,232,mba,MIT,2015-05-04
+206,233,bachelor,Oxford University,2002-11-17
+207,234,master,Stanford University,2002-05-08
+208,235,phd,Moscow State University,2018-03-15
+209,236,phd,Harvard University,2011-09-06
+210,237,phd,MIT,1996-04-25
+211,238,mba,Oxford University,2018-07-01
+212,239,bachelor,Technion,2015-06-02
+213,240,bachelor,Technion,2002-06-27
+214,241,phd,MIT,2000-03-04
+215,242,bachelor,Stanford University,1995-07-21
+216,243,mba,Cambridge University,2012-03-06
+217,245,bachelor,Moscow State University,2013-10-23
+218,246,master,ETH Zurich,2009-05-08
+219,247,bachelor,HSE University,2011-09-22
+220,248,bachelor,Harvard University,2005-01-04
+221,249,bachelor,ETH Zurich,1998-02-03
+222,252,phd,Cambridge University,1998-11-16
+223,253,bachelor,Cambridge University,2004-01-01
+224,254,phd,HSE University,2005-11-18
+225,255,mba,UC Berkeley,2005-12-30
+226,256,mba,Stanford University,2005-06-14
+227,257,bachelor,Cambridge University,1995-01-24
+228,258,mba,Oxford University,1999-08-31
+229,259,master,ETH Zurich,2017-01-26
+230,262,phd,MIT,1996-12-20
+231,265,phd,Technion,1998-10-23
+232,266,master,ETH Zurich,1998-05-11
+233,267,bachelor,ETH Zurich,2000-11-11
+234,268,phd,Cambridge University,2012-08-17
+235,269,phd,Cambridge University,2015-04-23
+236,270,bachelor,UC Berkeley,2001-02-08
+237,271,bachelor,Harvard University,1999-09-28
+238,272,mba,Cambridge University,2013-03-27
+239,273,phd,UC Berkeley,2015-04-10
+240,274,phd,MIT,1999-01-21
+241,275,phd,HSE University,1996-10-22
+242,276,phd,Harvard University,1999-02-03
+243,277,phd,ETH Zurich,2018-01-12
+244,278,phd,Oxford University,2002-10-19
+245,279,mba,Technion,2006-03-17
+246,280,bachelor,Harvard University,2000-06-12
+247,281,master,Harvard University,2003-11-21
+248,282,phd,MIT,2006-08-11
+249,284,bachelor,UC Berkeley,2014-11-22
+250,285,bachelor,Cambridge University,2000-06-30
+251,286,mba,Stanford University,2002-07-15
+252,288,mba,Technion,1996-04-28
+253,289,mba,Harvard University,2010-11-17
+254,290,master,Oxford University,2007-07-22
+255,291,master,Stanford University,2006-01-09
+256,292,mba,ETH Zurich,2016-06-27
+257,293,phd,ETH Zurich,2001-02-26
+258,294,master,Moscow State University,1995-11-16
+259,296,phd,Technion,2016-09-27
+260,297,phd,ETH Zurich,2007-02-17
+261,298,phd,HSE University,2004-10-28
+262,299,phd,Stanford University,2016-02-28
+263,300,master,Harvard University,1999-06-29
+264,301,master,Oxford University,2018-12-09
+265,302,bachelor,UC Berkeley,2012-06-03
+266,303,master,Harvard University,2005-08-11
+267,304,phd,HSE University,1996-04-07
+268,305,phd,HSE University,2001-05-17
+269,306,master,Technion,2008-11-11
+270,307,bachelor,MIT,1997-07-09
+271,308,master,Stanford University,2018-08-13
+272,309,phd,HSE University,2004-01-14
+273,310,phd,Harvard University,2009-07-07
+274,311,master,HSE University,2001-05-09
+275,312,phd,MIT,2011-10-04
+276,313,mba,HSE University,1999-07-14
+277,314,phd,Harvard University,2002-01-24
+278,315,mba,Technion,2009-03-26
+279,316,phd,UC Berkeley,2002-11-12
+280,317,phd,Harvard University,2002-12-21
+281,318,mba,HSE University,1996-06-14
+282,319,phd,HSE University,2004-11-28
+283,320,bachelor,Technion,2001-04-23
+284,321,bachelor,UC Berkeley,2010-07-23
+285,323,bachelor,Cambridge University,2015-01-13
+286,324,master,UC Berkeley,1998-01-15
+287,325,bachelor,Stanford University,1997-02-27
+288,326,mba,Harvard University,2013-07-28
+289,327,mba,Cambridge University,2011-11-02
+290,328,mba,HSE University,2005-02-12
+291,329,bachelor,Stanford University,2008-03-24
+292,330,phd,MIT,1998-04-30
+293,331,mba,Harvard University,1998-05-13
+294,332,bachelor,Cambridge University,2016-08-27
+295,333,mba,Harvard University,2014-06-23
+296,334,bachelor,Cambridge University,2004-03-21
+297,336,phd,Oxford University,2008-05-04
+298,337,bachelor,ETH Zurich,2017-01-08
+299,338,phd,Stanford University,2014-03-07
+300,339,mba,UC Berkeley,1999-05-09
+301,340,master,Oxford University,1998-09-04
+302,341,bachelor,Oxford University,2012-10-30
+303,342,phd,MIT,2012-05-20
+304,343,mba,Cambridge University,2003-05-15
+305,344,phd,Technion,2015-11-11
+306,345,phd,HSE University,1997-10-06
+307,346,bachelor,MIT,2010-06-03
+308,347,mba,HSE University,2005-03-16
+309,348,mba,Moscow State University,2013-10-11
+310,350,mba,HSE University,2005-07-27
+311,351,bachelor,ETH Zurich,1996-07-22
+312,352,master,MIT,2015-02-22
+313,353,master,UC Berkeley,2003-08-24
+314,354,mba,MIT,2014-07-13
+315,355,master,HSE University,2006-07-27
+316,356,bachelor,MIT,2012-05-29
+317,357,phd,Oxford University,2018-04-24
+318,358,bachelor,HSE University,2018-06-10
+319,359,bachelor,ETH Zurich,2001-09-17
+320,360,bachelor,MIT,1999-07-13
+321,361,phd,ETH Zurich,2006-11-06
+322,362,mba,HSE University,2016-03-21
+323,363,phd,ETH Zurich,2001-06-14
+324,364,mba,Stanford University,2012-10-02
+325,366,master,Stanford University,2016-04-25
+326,369,phd,Oxford University,2007-07-30
+327,370,bachelor,UC Berkeley,2001-01-10
+328,371,mba,Cambridge University,2007-02-01
+329,372,bachelor,UC Berkeley,2014-10-25
+330,373,mba,Technion,2018-03-03
+331,375,master,MIT,2008-12-15
+332,376,mba,Harvard University,2018-07-08
+333,378,master,UC Berkeley,1997-08-02
+334,379,mba,Stanford University,2011-03-02
+335,380,phd,Cambridge University,2015-10-28
+336,381,bachelor,Stanford University,2005-11-07
+337,382,mba,Harvard University,2016-04-15
+338,383,phd,Cambridge University,2002-05-03
+339,384,phd,MIT,2007-10-15
+340,385,bachelor,Harvard University,2004-08-12
+341,387,master,Oxford University,2013-05-15
+342,388,bachelor,Technion,2000-12-07
+343,389,bachelor,UC Berkeley,2006-04-28
+344,390,phd,Oxford University,2014-01-04
+345,393,master,Technion,2008-07-21
+346,394,mba,HSE University,1999-08-04
+347,395,phd,Moscow State University,2007-09-06
+348,396,bachelor,Technion,1997-11-11
+349,397,phd,Cambridge University,2007-06-03
+350,398,phd,UC Berkeley,2001-09-22
+351,399,master,Stanford University,2013-02-15
+352,400,master,Stanford University,2017-04-23
+353,402,mba,ETH Zurich,2012-06-01
+354,403,master,Cambridge University,2004-12-22
+355,404,mba,Cambridge University,2017-10-03
+356,405,master,Moscow State University,2003-02-15
+357,406,mba,Harvard University,2006-08-08
+358,407,master,Cambridge University,1999-01-03
+359,408,master,Oxford University,2013-11-11
+360,409,phd,Cambridge University,2006-09-09
+361,410,mba,MIT,2016-02-09
+362,411,bachelor,Technion,2003-09-23
+363,412,mba,Moscow State University,2008-05-20
+364,413,master,Harvard University,2003-12-26
+365,414,mba,Harvard University,2009-03-11
+366,416,bachelor,Technion,2009-12-02
+367,417,master,Cambridge University,1997-08-08
+368,418,phd,UC Berkeley,2002-07-25
+369,419,master,Technion,1998-12-13
+370,420,mba,ETH Zurich,2013-02-04
+371,421,mba,ETH Zurich,1995-03-18
+372,422,master,Cambridge University,1995-08-19
+373,424,master,Stanford University,1995-03-09
+374,425,master,UC Berkeley,2010-06-12
+375,426,bachelor,ETH Zurich,2017-07-30
+376,427,master,MIT,1997-01-19
+377,428,phd,Technion,2018-05-04
+378,429,phd,ETH Zurich,2001-01-01
+379,430,mba,Cambridge University,2003-06-15
+380,431,mba,Stanford University,2005-03-31
+381,432,master,UC Berkeley,1995-12-26
+382,433,master,MIT,2011-06-12
+383,434,bachelor,ETH Zurich,2006-06-22
+384,435,bachelor,HSE University,1997-02-24
+385,436,bachelor,Stanford University,2000-03-12
+386,437,mba,MIT,2006-05-03
+387,438,master,UC Berkeley,1995-06-02
+388,439,bachelor,Moscow State University,2007-02-10
+389,440,master,ETH Zurich,1999-09-15
+390,441,bachelor,Oxford University,2000-02-11
+391,442,mba,UC Berkeley,2003-12-17
+392,443,master,Cambridge University,2013-05-19
+393,444,bachelor,Moscow State University,2017-04-07
+394,446,mba,Cambridge University,2005-07-09
+395,447,bachelor,MIT,2017-03-01
+396,448,bachelor,Moscow State University,1998-05-14
+397,449,bachelor,Oxford University,2005-05-15
+398,450,phd,Oxford University,2015-10-29
+399,451,master,Stanford University,2008-01-13
+400,452,phd,ETH Zurich,2000-03-13
+401,453,bachelor,Stanford University,2001-03-17
+402,454,master,Cambridge University,2011-01-14
+403,457,bachelor,Cambridge University,2010-05-17
+404,458,mba,ETH Zurich,2015-06-24
+405,459,mba,Technion,2013-12-01
+406,460,master,MIT,2000-12-11
+407,461,bachelor,Harvard University,1999-08-27
+408,462,mba,HSE University,2014-08-27
+409,463,mba,Cambridge University,1996-04-17
+410,466,master,Technion,2016-11-23
+411,467,mba,Technion,1997-01-23
+412,468,phd,Stanford University,2018-07-17
+413,469,master,Cambridge University,2018-04-14
+414,470,bachelor,ETH Zurich,2006-02-24
+415,471,mba,Harvard University,1997-06-13
+416,472,master,Moscow State University,2016-01-19
+417,475,mba,Cambridge University,2005-10-21
+418,476,phd,Stanford University,2017-09-27
+419,477,mba,ETH Zurich,2005-07-17
+420,478,mba,HSE University,2015-02-06
+421,479,mba,Technion,2009-03-06
+422,480,mba,Stanford University,1999-08-09
+423,481,bachelor,Moscow State University,1995-01-03
+424,482,phd,Moscow State University,2004-04-12
+425,483,mba,Cambridge University,2011-04-20
+426,484,master,Technion,2009-11-22
+427,485,mba,Cambridge University,2015-04-20
+428,486,master,Stanford University,2010-04-24
+429,487,phd,Moscow State University,2018-06-01
+430,488,bachelor,Stanford University,2002-05-13
+431,489,mba,MIT,2006-05-29
+432,490,master,MIT,2012-08-16
+433,491,master,Cambridge University,1999-11-01
+434,492,bachelor,HSE University,2000-07-11
+435,493,mba,Technion,2017-08-13
+436,494,mba,Stanford University,2018-10-16
+437,495,mba,HSE University,2016-08-30
+438,497,master,HSE University,2002-10-16
+439,498,master,MIT,2012-05-18
+440,499,phd,Moscow State University,2012-04-03
+441,500,master,Oxford University,2012-11-05
+442,503,master,Harvard University,2013-07-07
+443,504,phd,Moscow State University,2009-01-30
+444,505,master,UC Berkeley,2004-05-28
+445,506,phd,Cambridge University,2000-12-13
+446,508,master,Moscow State University,2009-06-17
+447,509,phd,Moscow State University,2016-07-19
+448,510,mba,Moscow State University,2007-10-29
+449,512,bachelor,Moscow State University,1999-10-11
+450,513,master,Stanford University,1997-07-16
+451,514,master,Oxford University,2006-03-29
+452,515,bachelor,Oxford University,2004-02-25
+453,516,bachelor,Cambridge University,2015-04-21
+454,517,master,Moscow State University,2012-06-11
+455,518,phd,Stanford University,2012-02-12
+456,519,phd,Moscow State University,1997-05-31
+457,520,phd,UC Berkeley,2014-11-16
+458,521,phd,HSE University,2003-10-24
+459,522,master,Oxford University,2015-02-18
+460,523,bachelor,Harvard University,2002-10-18
+461,524,bachelor,ETH Zurich,1996-10-27
+462,525,phd,Harvard University,2002-03-21
+463,526,phd,Stanford University,2009-10-29
+464,527,master,Stanford University,2001-11-23
+465,529,phd,Technion,2011-01-23
+466,530,phd,Moscow State University,2004-11-12
+467,532,master,ETH Zurich,2013-02-04
+468,533,master,UC Berkeley,2009-11-20
+469,534,phd,UC Berkeley,2018-10-18
+470,535,bachelor,MIT,2010-07-09
+471,536,master,Stanford University,2009-05-25
+472,537,bachelor,ETH Zurich,2006-07-05
+473,538,phd,Stanford University,2018-03-09
+474,539,phd,Moscow State University,2017-10-27
+475,540,bachelor,Oxford University,2003-08-21
+476,541,bachelor,MIT,2002-07-05
+477,543,bachelor,MIT,2004-06-15
+478,544,master,ETH Zurich,1999-08-30
+479,545,mba,MIT,2001-11-24
+480,546,phd,Stanford University,1998-12-04
+481,547,master,Oxford University,1998-02-28
+482,548,master,Oxford University,2013-04-14
+483,549,mba,ETH Zurich,2009-03-11
+484,550,bachelor,Moscow State University,1995-04-07
+485,551,bachelor,HSE University,1997-01-15
+486,552,bachelor,Cambridge University,2017-07-22
+487,553,phd,HSE University,1998-11-18
+488,554,mba,ETH Zurich,2012-09-21
+489,555,bachelor,Technion,2002-01-05
+490,556,master,ETH Zurich,2008-03-25
+491,558,phd,Stanford University,2001-05-05
+492,559,bachelor,HSE University,2012-09-04
+493,560,bachelor,Oxford University,2004-06-03
+494,561,phd,UC Berkeley,2013-07-05
+495,564,master,UC Berkeley,2006-05-03
+496,565,master,HSE University,1997-06-10
+497,569,bachelor,Oxford University,1998-01-08
+498,570,master,HSE University,2016-11-08
+499,572,master,MIT,2007-10-16
+500,573,master,Cambridge University,2016-10-17
+501,574,phd,HSE University,2001-11-01
+502,575,phd,Cambridge University,2014-03-19
+503,576,phd,UC Berkeley,2004-12-08
+504,577,mba,Oxford University,2011-02-15
+505,578,phd,Technion,2015-10-06
+506,579,phd,Technion,1999-11-19
+507,580,bachelor,Oxford University,2001-04-12
+508,582,bachelor,MIT,1995-11-02
+509,583,bachelor,HSE University,2013-03-04
+510,584,master,Stanford University,2006-09-09
+511,585,mba,Harvard University,2011-05-30
+512,586,phd,Harvard University,2015-11-05
+513,587,bachelor,ETH Zurich,2011-04-28
+514,588,master,HSE University,2002-06-10
+515,589,master,Technion,2002-02-21
+516,590,master,Technion,2011-02-04
+517,591,mba,UC Berkeley,1997-10-26
+518,592,master,Stanford University,2004-04-10
+519,593,phd,ETH Zurich,2016-01-26
+520,596,phd,MIT,2018-05-22
+521,597,phd,Oxford University,2002-10-19
+522,598,mba,Cambridge University,1998-06-29
+523,599,mba,UC Berkeley,2018-03-01
+524,600,phd,Technion,2016-08-16
+525,602,master,Technion,2002-06-06
+526,603,phd,UC Berkeley,2001-09-27
+527,604,phd,HSE University,2000-04-22
+528,605,mba,Cambridge University,2000-01-31
+529,606,mba,Technion,2004-06-14
+530,607,mba,Stanford University,2005-12-06
+531,608,master,Harvard University,2017-12-30
+532,609,master,Stanford University,2002-06-18
+533,610,master,Moscow State University,2013-03-09
+534,611,bachelor,Oxford University,1998-11-05
+535,612,mba,Technion,2002-08-26
+536,613,mba,HSE University,2001-05-27
+537,614,master,HSE University,2017-11-30
+538,615,phd,Technion,1998-02-01
+539,616,mba,Harvard University,1999-11-14
+540,617,mba,Harvard University,1999-04-27
+541,618,bachelor,Moscow State University,2017-07-30
+542,619,bachelor,Technion,2000-11-05
+543,621,bachelor,ETH Zurich,2018-06-02
+544,622,bachelor,Moscow State University,2014-03-30
+545,623,mba,ETH Zurich,2010-09-21
+546,624,bachelor,ETH Zurich,2001-01-02
+547,625,master,MIT,2007-09-16
+548,626,mba,Oxford University,2003-06-24
+549,627,bachelor,HSE University,2018-06-10
+550,628,bachelor,ETH Zurich,2004-03-19
+551,629,phd,ETH Zurich,2011-04-02
+552,630,mba,HSE University,2006-05-18
+553,631,mba,HSE University,2011-05-27
+554,632,mba,UC Berkeley,2013-07-15
+555,633,mba,Harvard University,2011-08-10
+556,634,mba,Oxford University,2008-10-03
