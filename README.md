@@ -84,9 +84,3 @@ Analyst_portfolio/
 ├── Tableau/
 └── Excel/
 ```
-
----
-
-## Контакты
-
-- **GitHub:** [@leonid-art](https://github.com/leonid-art)
